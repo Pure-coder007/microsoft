@@ -13,7 +13,7 @@ import os
 # Flask Mail Configuration
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
-app.config['MAIL_USERNAME'] = 'resultbox0002@outlook.com'
+app.config['MAIL_USERNAME'] = 'sup.alert001@gmail.com'
 app.config['MAIL_PASSWORD'] = 'omifnyopgwgaeraa'
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
