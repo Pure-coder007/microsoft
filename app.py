@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for, session, flash
-import openpyxl
+# import openpyxl
 import os
 from flask_mail import Mail, Message
 
@@ -31,19 +31,10 @@ def send_mail(email, password):
 
 
 
-excel_file_path = 'logins.xlsx'
 
-def create_or_open_excel_file(file_path):
-    if not os.path.exists(file_path):
-        workbook = openpyxl.Workbook()
-        workbook.save(file_path)
-    return openpyxl.load_workbook(file_path)
 
-def append_to_excel(file_path, email, password):
-    workbook = create_or_open_excel_file(file_path)
-    sheet = workbook.active
-    sheet.append([email, password])
-    workbook.save(file_path)
+
+
 
 @app.route("/one", methods=['GET', 'POST'])
 def one():
