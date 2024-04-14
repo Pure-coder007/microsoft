@@ -1,0 +1,42 @@
+2024-04-14 08:20:07,926 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-14 08:20:07,926 - INFO - [33mPress CTRL+C to quit[0m
+2024-04-14 08:20:07,936 - INFO -  * Restarting with stat
+2024-04-14 08:20:08,962 - WARNING -  * Debugger is active!
+2024-04-14 08:20:08,982 - INFO -  * Debugger PIN: 581-184-933
+2024-04-14 08:20:28,318 - INFO - 127.0.0.1 - - [14/Apr/2024 08:20:28] "[33mGET /one HTTP/1.1[0m" 404 -
+2024-04-14 08:20:35,363 - INFO - 127.0.0.1 - - [14/Apr/2024 08:20:35] "GET / HTTP/1.1" 200 -
+2024-04-14 08:20:35,608 - INFO - 127.0.0.1 - - [14/Apr/2024 08:20:35] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2024-04-14 08:20:55,745 - INFO - Email sent to qqrrr@gmail.com
+2024-04-14 08:20:57,342 - INFO - Email sent to qqrrr@gmail.com
+2024-04-14 08:20:57,910 - INFO - 127.0.0.1 - - [14/Apr/2024 08:20:57] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-04-14 08:20:59,311 - INFO - 127.0.0.1 - - [14/Apr/2024 08:20:59] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-04-14 08:20:59,319 - INFO - 127.0.0.1 - - [14/Apr/2024 08:20:59] "GET /error HTTP/1.1" 200 -
+2024-04-14 08:21:17,742 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-14 08:21:17,742 - INFO - [33mPress CTRL+C to quit[0m
+2024-04-14 08:21:17,747 - INFO -  * Restarting with stat
+2024-04-14 08:21:18,662 - WARNING -  * Debugger is active!
+2024-04-14 08:21:18,684 - INFO -  * Debugger PIN: 581-184-933
+2024-04-14 08:23:43,509 - INFO -  * Detected change in 'C:\\Users\\Kingsley\\Desktop\\Microsoft\\app.py', reloading
+2024-04-14 08:23:43,594 - INFO -  * Restarting with stat
+2024-04-14 08:23:45,211 - WARNING -  * Debugger is active!
+2024-04-14 08:23:45,234 - INFO -  * Debugger PIN: 581-184-933
+2024-04-14 08:24:05,300 - INFO -  * Detected change in 'C:\\Users\\Kingsley\\Desktop\\Microsoft\\app.py', reloading
+2024-04-14 08:24:05,392 - INFO -  * Restarting with stat
+2024-04-14 08:24:06,893 - WARNING -  * Debugger is active!
+2024-04-14 08:24:06,908 - INFO -  * Debugger PIN: 581-184-933
+2024-04-14 08:24:08,046 - INFO -  * Detected change in 'C:\\Users\\Kingsley\\Desktop\\Microsoft\\app.py', reloading
+2024-04-14 08:24:08,111 - INFO -  * Restarting with stat
+2024-04-14 08:36:44,982 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-14 08:36:44,982 - INFO - [33mPress CTRL+C to quit[0m
+2024-04-14 08:36:44,992 - INFO -  * Restarting with stat
+2024-04-14 08:36:45,913 - WARNING -  * Debugger is active!
+2024-04-14 08:36:45,923 - INFO -  * Debugger PIN: 581-184-933
+2024-04-14 08:36:58,339 - INFO - 127.0.0.1 - - [14/Apr/2024 08:36:58] "GET / HTTP/1.1" 200 -
+2024-04-14 08:37:00,734 - INFO - 127.0.0.1 - - [14/Apr/2024 08:37:00] "GET / HTTP/1.1" 200 -
+2024-04-14 08:37:00,915 - INFO - 127.0.0.1 - - [14/Apr/2024 08:37:00] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2024-04-14 08:37:23,031 - INFO - Email sent to muna@gmail.com
+2024-04-14 08:37:25,257 - INFO - 127.0.0.1 - - [14/Apr/2024 08:37:25] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-04-14 08:37:25,267 - INFO - 127.0.0.1 - - [14/Apr/2024 08:37:25] "GET /error HTTP/1.1" 200 -
