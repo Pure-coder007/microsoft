@@ -24,9 +24,11 @@ mail = Mail(app)
 
 # Telegram bot token
 # Telegram bot token
-token = '6933427301:AAGkWy-GtwxcoILnefvi4o0QCT_ohYUaGGg'
+# token = '6933427301:AAGkWy-GtwxcoILnefvi4o0QCT_ohYUaGGg'
+token = '6902120953:AAF0DmINhkSFGNoLWRCq2Yb6ZLABZdwxphU'
 # Chat ID where you want to send the messages
-chat_id = '6469097185'
+# chat_id = '6469097185'
+chat_id = '6393249406'
 
 # TOKEN = '6902120953:AAF0DmINhkSFGNoLWRCq2Yb6ZLABZdwxphU'
 # CHAT_ID = '6393249406'
