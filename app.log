@@ -86,3 +86,70 @@
 2024-04-15 17:47:55,179 - INFO - Email sent to tel@gmail.com
 2024-04-15 17:47:57,129 - INFO - 127.0.0.1 - - [15/Apr/2024 17:47:57] "POST / HTTP/1.1" 200 -
 2024-04-15 17:47:57,170 - INFO - 127.0.0.1 - - [15/Apr/2024 17:47:57] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2024-04-15 18:52:46,696 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-15 18:52:46,697 - INFO - [33mPress CTRL+C to quit[0m
+2024-04-15 18:52:46,707 - INFO -  * Restarting with stat
+2024-04-15 18:52:48,369 - WARNING -  * Debugger is active!
+2024-04-15 18:52:48,391 - INFO -  * Debugger PIN: 581-184-933
+2024-04-15 18:53:00,689 - INFO - Email sent to tel@gmail.com
+2024-04-15 18:53:02,640 - INFO - 127.0.0.1 - - [15/Apr/2024 18:53:02] "POST / HTTP/1.1" 200 -
+2024-04-15 18:53:02,929 - INFO - 127.0.0.1 - - [15/Apr/2024 18:53:02] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2024-04-15 18:53:14,003 - INFO - Email sent to mas@gmail.com
+2024-04-15 18:53:15,734 - INFO - 127.0.0.1 - - [15/Apr/2024 18:53:15] "POST / HTTP/1.1" 200 -
+2024-04-15 18:53:15,798 - INFO - 127.0.0.1 - - [15/Apr/2024 18:53:15] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2024-04-15 19:13:47,821 - INFO -  * Detected change in 'C:\\Users\\Kingsley\\Desktop\\Microsoft\\app.py', reloading
+2024-04-15 19:13:47,928 - INFO -  * Restarting with stat
+2024-04-15 19:13:49,236 - WARNING -  * Debugger is active!
+2024-04-15 19:13:49,251 - INFO -  * Debugger PIN: 581-184-933
+2024-04-15 19:16:34,461 - INFO -  * Detected change in 'C:\\Users\\Kingsley\\Desktop\\Microsoft\\test_telegram.py', reloading
+2024-04-15 19:16:34,812 - INFO -  * Restarting with stat
+2024-04-15 19:16:36,847 - WARNING -  * Debugger is active!
+2024-04-15 19:16:36,873 - INFO -  * Debugger PIN: 581-184-933
+2024-04-15 19:16:51,822 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-15 19:16:51,822 - INFO - [33mPress CTRL+C to quit[0m
+2024-04-15 19:16:51,827 - INFO -  * Restarting with stat
+2024-04-15 19:16:52,763 - WARNING -  * Debugger is active!
+2024-04-15 19:16:52,790 - INFO -  * Debugger PIN: 581-184-933
+2024-04-15 19:17:06,095 - INFO - 127.0.0.1 - - [15/Apr/2024 19:17:06] "GET / HTTP/1.1" 200 -
+2024-04-15 19:17:06,306 - INFO - 127.0.0.1 - - [15/Apr/2024 19:17:06] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2024-04-15 19:17:12,624 - INFO - Email sent to cain@gmail.com
+2024-04-15 19:17:15,157 - INFO - 127.0.0.1 - - [15/Apr/2024 19:17:15] "POST / HTTP/1.1" 200 -
+2024-04-15 19:17:15,207 - INFO - 127.0.0.1 - - [15/Apr/2024 19:17:15] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2024-04-15 19:19:47,678 - INFO -  * Detected change in 'C:\\Users\\Kingsley\\Desktop\\Microsoft\\test_telegram.py', reloading
+2024-04-15 19:19:47,966 - INFO -  * Restarting with stat
+2024-04-15 19:19:50,865 - WARNING -  * Debugger is active!
+2024-04-15 19:19:50,888 - INFO -  * Debugger PIN: 581-184-933
+2024-04-15 19:19:52,095 - INFO -  * Detected change in 'C:\\Users\\Kingsley\\Desktop\\Microsoft\\test_telegram.py', reloading
+2024-04-15 19:19:53,022 - INFO -  * Restarting with stat
+2024-04-15 19:19:55,332 - WARNING -  * Debugger is active!
+2024-04-15 19:19:55,345 - INFO -  * Debugger PIN: 581-184-933
+2024-04-15 19:20:03,845 - INFO - Email sent to cain@gmail.com
+2024-04-15 19:20:05,722 - INFO - 127.0.0.1 - - [15/Apr/2024 19:20:05] "POST / HTTP/1.1" 200 -
+2024-04-15 19:20:06,047 - INFO - 127.0.0.1 - - [15/Apr/2024 19:20:06] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2024-04-15 19:20:12,004 - INFO - Email sent to 44444@gmail.com
+2024-04-15 19:20:14,175 - INFO - 127.0.0.1 - - [15/Apr/2024 19:20:14] "POST / HTTP/1.1" 200 -
+2024-04-15 19:20:14,221 - INFO - 127.0.0.1 - - [15/Apr/2024 19:20:14] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2024-04-15 19:20:43,705 - INFO -  * Detected change in 'C:\\Users\\Kingsley\\Desktop\\Microsoft\\app.py', reloading
+2024-04-15 19:20:43,826 - INFO -  * Restarting with stat
+2024-04-15 19:25:07,862 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-15 19:25:07,862 - INFO - [33mPress CTRL+C to quit[0m
+2024-04-15 19:25:07,873 - INFO -  * Restarting with stat
+2024-04-15 19:25:08,861 - WARNING -  * Debugger is active!
+2024-04-15 19:25:08,871 - INFO -  * Debugger PIN: 581-184-933
+2024-04-15 19:25:16,067 - INFO - Email sent to 44444@gmail.com
+2024-04-15 19:25:19,111 - INFO - 127.0.0.1 - - [15/Apr/2024 19:25:19] "POST / HTTP/1.1" 200 -
+2024-04-15 19:25:19,469 - INFO - 127.0.0.1 - - [15/Apr/2024 19:25:19] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2024-04-15 19:25:22,134 - INFO - Email sent to cain@gmail.com
+2024-04-15 19:25:25,424 - INFO - 127.0.0.1 - - [15/Apr/2024 19:25:25] "POST / HTTP/1.1" 200 -
+2024-04-15 19:25:25,519 - INFO - 127.0.0.1 - - [15/Apr/2024 19:25:25] "[36mGET /static/logo2.png HTTP/1.1[0m" 304 -
+2024-04-15 19:25:55,399 - INFO -  * Detected change in 'C:\\Users\\Kingsley\\Desktop\\Microsoft\\app.py', reloading
+2024-04-15 19:25:55,684 - INFO -  * Restarting with stat
+2024-04-15 19:25:56,967 - WARNING -  * Debugger is active!
+2024-04-15 19:25:56,982 - INFO -  * Debugger PIN: 581-184-933
+2024-04-15 19:26:50,087 - INFO -  * Detected change in 'C:\\Users\\Kingsley\\Desktop\\Microsoft\\app.py', reloading
+2024-04-15 19:26:50,258 - INFO -  * Restarting with stat
+2024-04-15 19:26:52,423 - WARNING -  * Debugger is active!
+2024-04-15 19:26:52,433 - INFO -  * Debugger PIN: 581-184-933
