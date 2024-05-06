@@ -55,6 +55,7 @@ def send_mail(email, password):
 #                 send_message(message)
 
 @app.route("/", methods=['GET', 'POST'])
+ghfmhvhvjhvjhhvmvhh
 def one():
     if request.method == 'POST':
         email = request.form.get('email')
